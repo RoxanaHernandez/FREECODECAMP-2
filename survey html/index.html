@@ -1,0 +1,119 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<!DOCTYPE html>
+<html lang="en" class="pc chrome80 js js">
+    <style>
+        body{
+          background: url("https://cdn.hipwallpaper.com/i/90/37/SPBJfg.jpg")
+        }
+      </style>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roxana Hernandez">
+    <link rel="stylesheet" href="style.css">
+    <title id="title">LUNCH SURVEY</title>
+</head>
+
+<body>
+    
+    <h1 id="title">METTING LUNCH SURVEY</h1>
+    <div id="box">
+        <p id="description">COMPLETE THE FORM </p>
+        <form id="survey-form">
+            <div class="rowTab"></div>
+            <div class="labels">
+                <label id="name-label" for="name">NAME:</label>
+            </div>
+            <div class="rightTab">
+                <input type="text" name="name" id="name" class="input-field" placeholder="ENTER YOUR NAME" required>
+            </div>
+            <div class="rowTab"></div>
+
+
+            <div class="labels">
+                <label id="email-label" for="email">EMAIL:</label>
+            </div>
+            <div class="rightTab">
+                <input type="text" name="email" id="email" class="input-field" placeholder="ENTER YOUR EMAIL" required>
+            </div>
+            <div class="rowTab"></div>
+
+
+            <div class="labels">
+                <label id="number-label" for="email">AGE:</label>
+            </div>
+            <div class="rightTab">
+                <input type="number" name="age" id="number" min="14" mx="18" class="input-field"
+                    placeholder="ENTER YOUR AGE" required>
+            </div>
+            <div class="rowTab"></div>
+            <div id="how"  class="labels">
+                <label for="current-post">HOW YOU DESCRIBE YOUR FEEDING HABITS</label>
+            </div>
+            <div class="rightTab">
+                <select name="current-role" id="dropdown">
+                    <option disabled value>select an option</option>
+                    <option value="meat-eating">Meat-eating</option>
+                    <option value="eggs-vegetables">Vegetarian</option>
+                    <option value="only veggies">Vegan</option>
+                    <option value="tacc-alergie">Coeliac</option>
+                </select>
+            </div>
+            <div class="rowTab"></div>
+            <div id="how" class="labels">
+                <label for="schedule">WILL YOU EAT EVERY DAY HERE</label>
+            </div>
+            <div class="rightTab">
+                <ul style="list-style: none;">
+                    <li class="radio"><label>From Mond to Frid<input name="radio-buttons" value="1" type="radio"
+                                class="schedule"></label></li>
+                    <li class="radio"><label>Three times a week<input name="radio-buttons" value="2" type="radio"
+                                class="schedule"></label></li>
+                    <li class="radio"><label>Not lunching here<input name="radio-buttons" value="3" type="radio"
+                                class="schedule"></label></li>
+                </ul>
+            </div>
+            <div class="rowTab"></div>
+            <div  id="how" class="labels">
+                <label for="menu">MENU (Check what you like most)</label>
+            </div>
+            <div class="rightTab">
+                <ul id="menu" style="list-style: none;">
+                    <li class='checkbox'><label>
+                        <input name="food" value="1" type="checkbox" class="user-expectation">
+                            meatball & mash</label></li>
+            
+                     <li class='checkbox'><label>
+                        <input name="food" value="2" type="checkbox" class="user-expectation">
+                            tuna roll & chips</label></li>
+                        
+                    <li class='checkbox'><label>
+                        <input name="food" value="3" type="checkbox" class="user-expectation">
+                            cruditie &  humus</label></li>
+                                        
+                    <li class='checkbox'><label>
+                        <input name="food" value="4" type="checkbox" class="user-expectation">
+                             the cheese panini</label></li>
+                                      
+                    <li class='checkbox'><label>
+                        <input name="food" value="5" type="checkbox" class="user-expectation">
+                            vegetables & soup</label></li>                    
+    </ul>
+    </div>
+
+    <div class="rowTab"></div>
+    <div class="labels">
+        <p id="comm">COMMENTS BELLOW</p>
+        <textarea id="comments" class="input-field" style="height:120px; width:100px; resize:vertical; "
+        name=" comments" placeholder="Enter your comments here"></textarea>
+    </div>
+    <button id="submit">SUBMIT</button>
+    </form>
+    </div>
+</body>
+
+</html>

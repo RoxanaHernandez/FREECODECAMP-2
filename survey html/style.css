@@ -1,0 +1,37 @@
+
+body{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 180px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 30px;
+}
+#how{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.radio{
+    margin-left:10px;
+}
+.labels{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#comm{
+    font-size: 20;
+}
+#submit{
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+}
+#submit{
+    font-size: 20px;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+}
